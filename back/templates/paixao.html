@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <title>Minha paixão</title>
+
+</head>
+<body>
+    <header class="header-container">
+        <h3>A minha família é a minha paixão</h3>
+        <img class="img-logo" src="../static/img/tf.png" alt="logo">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id=toggle>
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-itens">
+                        <ul>
+                          <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li> 
+                            <a href="/sobre">Sobre</a> 
+                        </li>
+                        <li>
+                            <a href="/projetos">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="/paixao">Minha Paixão</a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>            
+</body>
+</html>
