@@ -21,6 +21,7 @@ body{
     position: absolute; 
     right: 50px;
     top: 8px;
+    filter: contrast(200%);
 }
 
 .header-container{

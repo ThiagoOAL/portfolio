@@ -1,44 +1,103 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
-    <title>Minha paixão</title>
+<html lang="br">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>paixao</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <link rel="stylesheet" href="static/boot/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/boot/assets/css/styles.min.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="static/assets/css/styles.min.css">
 </head>
-<body>
-    <header class="header-container">
-        <h3>A minha família é a minha paixão</h3>
-        <img class="img-logo" src="../static/img/tf.png" alt="logo">
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id=toggle>
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-itens">
-                        <ul>
-                          <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li> 
-                            <a href="/sobre">Sobre</a> 
-                        </li>
-                        <li>
-                            <a href="/projetos">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="/paixao">Minha Paixão</a>
-                        </li>
-                        </ul>
-                    </nav>
+
+<body style="background: linear-gradient(68deg, #40916c 16.62%, #2d6a4f 85.61%);">
+    <section class="team-grid" style="background: linear-gradient(68deg, #40916c 18.6%, #2d6a4f 85.61%);">
+        <a href="/"> <img class="img-logo" src="../static/img/tf.png" alt="logo"> </a>
+            <div class="header">
+                <div class="checkbox-container">
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id=toggle>
+                        <label class="checkbox" for="toggle">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
+                        <div class="menu"></div>
+                        <nav class="menu-itens">
+                            <ul>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/sobre">Sobre</a>
+                                </li>
+                                <li>
+                                    <a href="/projetos">Projetos</a>
+                                </li>
+                                <li>
+                                    <a href="/paixao">Minha Paixão</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>            
+            </div>
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Família</h2>
+                <p class="text-center" style="color: var(--bs-gray-400);">A Minha família é o bem mais importante para
+                    mim, amo incondicionalmente. Minha paixão!</p>
+            </div>
+            <div class="row people">
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(1.jpg)"><img src="static/boot/assets/img/laos.jpeg"
+                            style="width: 216px;">
+                        <div class="cover" style="background: rgba(240,244,243,0.64);">
+                            <h3 class="name">Laos</h3>
+                            <p class="title" style="color: var(--bs-gray-900);">Meu "pet-filho" felino</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(2.jpg)"><img src="static/boot/assets/img/mila.jpeg"
+                            style="width: 216px;">
+                        <div class="cover" style="background: rgba(240,244,243,0.64);">
+                            <h3 class="name">Mila</h3>
+                            <p class="title" style="color: var(--bs-gray-900);"><br><strong>Minha "PET-FILHa"
+                                    canina</strong><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(3.jpg)">
+                        <div class="cover" style="background: rgba(240,244,243,0.64);">
+                            <h3 class="name">Minha Esposa</h3>
+                            <p class="title">Minha esposa e seus babys</p>
+                        </div><img src="static/boot/assets/img/familia.jpeg" style="width: 216px;height: 280px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
+<footer class="footer-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col item social"><a href="https://www.linkedin.com/in/thiagoleite042/"><i class="icon ion-social-linkedin-outline"></i></a>
+                <a href="https://www.instagram.com/thiioli/"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Desenvolvido por Thiago Leite</p>
+    </div>
+</footer>
+
 </html>
