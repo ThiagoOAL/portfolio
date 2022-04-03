@@ -6,7 +6,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title> portfólio </title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}"> -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}"><link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css"><link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css"><link rel="stylesheet" href="static/assets/fonts/ionicons.min.css"><link rel="stylesheet" href="static/assets/fonts/material-icons.min.css"><link rel="stylesheet" href="static/assets/fonts/fontawesome5-overrides.min.css"><link rel="stylesheet" href="static/assets/css/styles.min.css">
 
 
     </head>
@@ -14,7 +15,7 @@
 
     <body>
         <header class="header-container">
-            <img class="img-logo" src="../static/img/tf.png" alt="logo">
+           <a href="/">  <img class="img-logo" src="../static/img/tf.png" alt="logo"> </a>
             <div class="img-fundo">
                 <img class="img-fundo-imagem" src="../static/img/foto_port1.png" alt="Minha foto">
             </div>
@@ -57,7 +58,7 @@
             </div>
 
         </header>
-        <footer class="footer"> Desenvolvido por Thiago Oliveira de Andrade Leite</footer>
+        <footer class="footer-dark"><div class="container"><div class="row"><div class="col item social"><a href="#"><i class="icon ion-social-linkedin-outline"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div></div><p class="copyright">Desenvolvido por Thiago Leite</p></div></footer>
     </body>
 </html>
 
