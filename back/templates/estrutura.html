@@ -2,63 +2,77 @@
 
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title> portfólio </title>
-        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}"> -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}"><link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css"><link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css"><link rel="stylesheet" href="static/assets/fonts/ionicons.min.css"><link rel="stylesheet" href="static/assets/fonts/material-icons.min.css"><link rel="stylesheet" href="static/assets/fonts/fontawesome5-overrides.min.css"><link rel="stylesheet" href="static/assets/css/styles.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> portfólio </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="static/assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="static/assets/css/styles.min.css">
+
+</head>
 
 
-    </head>
-
-
-    <body>
-        <header class="header-container">
-           <a href="/">  <img class="img-logo" src="../static/img/tf.png" alt="logo"> </a>
-            <div class="img-fundo">
-                <img class="img-fundo-imagem" src="../static/img/foto_port1.png" alt="Minha foto">
-            </div>
-            <div class="header">
-                <div class="checkbox-container">
-                    <div class="checkbox-wrapper">
-                        <input type="checkbox" id=toggle>
-                        <label class="checkbox" for="toggle">
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                        </label>
-                        <div class="menu"></div>
-                        <nav class="menu-itens">
-                            <ul>
-                                <li>
-                                    <a href="/">Home</a>
-                                </li>
-                                <li> 
-                                    <a href="/sobre">Sobre</a> 
-                                </li>
-                                <li>
-                                    <a href="/projetos">Projetos</a>
-                                </li>
-                                <li>
-                                    <a href="/paixao">Minha Paixão</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-
+<body>
+    <header class="header-container">
+        <a href="/"> <img class="img-logo" src="../static/img/tf.png" alt="logo"> </a>
+        <div class="img-fundo">
+            <img class="img-fundo-imagem" src="../static/img/foto_port1.png" alt="Minha foto">
+        </div>
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id=toggle>
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-itens">
+                        <ul>
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/sobre">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="/projetos">Projetos</a>
+                            </li>
+                            <li>
+                                <a href="/paixao">Minha Paixão</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                
-            </div>
-            <h1>Thiago Leite</h1>
-            <h2>Desenvolvedor de Software em formação</h2>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/thiagoleite042/">Linkedin</a>
-                <a href="https://github.com/ThiagoOAL">GitHub</a>
+
             </div>
 
-        </header>
-        <footer class="footer-dark"><div class="container"><div class="row"><div class="col item social"><a href="#"><i class="icon ion-social-linkedin-outline"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div></div><p class="copyright">Desenvolvido por Thiago Leite</p></div></footer>
-    </body>
+        </div>
+        <h1>Thiago Leite</h1>
+        <h2>Desenvolvedor de Software em formação</h2>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/thiagoleite042/">Linkedin</a>
+            <a href="https://github.com/ThiagoOAL">GitHub</a>
+        </div>
+
+    </header>
+</body>
+
+<footer class="footer-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col item social"><a href="#"><i class="icon ion-social-linkedin-outline"></i></a><a
+                    href="#"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Desenvolvido por Thiago Leite</p>
+    </div>
+</footer>
+
 </html>
-
