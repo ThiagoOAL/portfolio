@@ -9,4 +9,4 @@ MarkupSafe==2.0.1
 mysql-connector-python==8.0.28
 pycodestyle==2.8.0
 toml==0.10.2
-Werkzeug==1.0.1
+Werkzeug==2.1.1
