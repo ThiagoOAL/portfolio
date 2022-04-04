@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="br">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title> projetos </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Projetos</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <link rel="stylesheet" href="static/boots/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/boots/assets/css/styles.min.css">
     <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
@@ -14,77 +15,81 @@
     <link rel="stylesheet" href="static/assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="static/assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="static/assets/css/styles.min.css">
-    
-
-
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
 </head>
 
-
-<body style="background: linear-gradient(68deg, #40916c 16.62%, #2d6a4f 85.61%);">
-
-        <h2 class="text-center">Projetos</h2>
+<body style="background: linear-gradient(68deg, #40916c, #2d6a4f 85.61%);">
+    <section class="projects-horizontal" style="background: linear-gradient(68deg, #40916c 16.62%, #2d6a4f 85.61%);">
         <a href="/"> <img class="img-logo" src="../static/img/tf.png" alt="logo"> </a>
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id=toggle>
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-itens">
-                        <ul>
-                            <li>
-                                <a href="/">Home</a>
-                            </li>
-                            <li>
-                                <a href="/sobre">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="/projetos">Projetos</a>
-                            </li>
-                            <li>
-                                <a href="/paixao">Minha Paixão</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="header">
+                <div class="checkbox-container">
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id=toggle>
+                        <label class="checkbox" for="toggle">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
+                        <div class="menu"></div>
+                        <nav class="menu-itens">
+                            <ul>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/sobre">Sobre</a>
+                                </li>
+                                <li>
+                                    <a href="/projetos">Projetos</a>
+                                </li>
+                                <li>
+                                    <a href="/paixao">Minha Paixão</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Projetos</h2>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                            <div class="col-md-12 col-lg-5"><a href="https://github.com/ThiagoOAL/SCHOOL-API-PROJECT"><img class="img-fluid" src="static/boots/assets/img/nodejs.jpg"
+                                style="width: 237px;margin-top: 50px;"></a></div>
+
+                        <div class="col">
+                            <h3 class="name">School API</h3>
+                            <p class="description" style="text-align: left;color: var(--bs-white);"><br>&nbsp;School API
+                                é um projeto desenvolvido em NodeJS, com utilização do framework NestJS e do banco de
+                                dados MongoDB. Esse projeto se trata de uma comunicação entre os responsáveis dos alunos
+                                e professores. Os responsáveis conseguem visualizar quais tarefas foram realizadas por
+                                seus dependentes e o desempenho deles. Essas informações são alimentadas pelos
+                                professores.<br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="https://github.com/ThiagoOAL/estudo-API"><img class="img-fluid" src="static/boots/assets/img/python.png"
+                                    style="width: 237.5px;height: 271px;"></a></div>
+                        <div class="col">
+                            <h3 class="name">API Service</h3>
+                            <p class="description" style="text-align: left;color: var(--bs-white);"><br>&nbsp; API
+                                Service é um projeto de estudo para simular a comunicação de uma aplicação de um Service
+                                Desk. Esse projeto está sendo desenvolvido em Python, com a utilização do microframework
+                                Flask e integrando ao banco de dados MySQL. Nessa aplicação, o usuário consegue
+                                solicitar um serviço de TI e visualizar quais solicitações ele já realizou.<br><br></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <main class="tcontainer">
-            <div class="tcard-container">
-                <div class="tcard">
-                        <div class="tcard-wraper" onClick="window.open('https://github.com/ThiagoOAL/SCHOOL-API-PROJECT','_blank');">
-
-                        <h2>School API</h2>
-                        <p>Confira!!</p>
-                        
-                    </div>
-                </div>
-                <div class="tcard-text">
-                    School API é um projeto desenvolvido em NodeJS, com utilização do framework NestJS e do banco de dados MongoDB. Esse projeto
-                    se trata de uma comunicação entre os responsáveis dos alunos e professores. Os responsáveis conseguem visualizar quais tarefas foram realizadas
-                    por seus dependentes e o desempenho deles. Essas informações são alimentadas pelos professores.
-                    
-                </div>
-            </div>
-            <div class="tcard-container">
-                <div class="tcard">
-                    <div class="tcard-wraper" onClick="window.open('https://github.com/ThiagoOAL/estudo-API','_blank');">
-                        <h2>Estudo API</h2>
-                        <p>Confira!!</p>
-                    </div>
-                </div>
-                <div class="tcard-text">
-                    Estudo API é um projeto de estudo para simular a comunicação de uma aplicação de um Service Desk. Esse projeto está sendo desenvolvido em Python,
-                    com a utilização do microframework Flask e integrando ao banco de dados MySQL. Nessa aplicação, o usuário consegue solicitar um serviço de TI e visualizar quais solicitações ele já realizou.
-                </div>
-            </div>
-        </main>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 <footer class="footer-dark">
     <div class="container">
         <div class="row">
@@ -94,5 +99,4 @@
         <p class="copyright">Desenvolvido por Thiago Leite</p>
     </div>
 </footer>
-
 </html>
