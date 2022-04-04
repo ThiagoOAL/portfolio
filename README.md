@@ -16,7 +16,7 @@
 ### Navegar para venv/Scripts/ e executar:
 	activate.bat
 ### Instalar as dependências com:
-	pip install -r requirements.txt
+	pip install -r requirements.txt ou py-3 -m pip install -r requirements.txt
 ### Navegar para src/ e executar:
 	python app.py ou py -m flask run
 ### Abrir o navegador e acessar a URL informada no prompt de comando.
