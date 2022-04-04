@@ -5,7 +5,7 @@
 
 ## Na pasta "doc" está contido um arquivo PDF que é o Wireframe do projeto.
 
-## Na pasta "src" contém duas subpastas, a "templates", que contém os arquivos .html e a "static", que contém o aquivivo .css e uma subpasta que contém as imagens, e outras duas subpastas que terão as pastas assets, que é referente a estilização das páginas que fazem uso do bootstrap. Além disso, contém o arquivo "app.py" que é a parte do servidor que utiliza o microframework Flask, para redirecionar as páginas.
+## Na pasta "templates" contém os arquivos .html e na "static", contém o aquivivo .css e uma subpasta que contém as imagens, e outras duas subpastas que terão as pastas assets, que é referente a estilização das páginas que fazem uso do bootstrap. Além disso, na raiz do repositório contém o arquivo "app.py" que é a parte do servidor que utiliza o microframework Flask, para redirecionar as páginas.
 
 ## 🛠️ Abrir e rodar o projeto:
  ### Criar uma pasta vazia
