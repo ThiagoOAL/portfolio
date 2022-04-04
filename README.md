@@ -1,4 +1,4 @@
-# portfolio
+# Portfólio
 ## Sou o Thiago Oliveira de Andrade Leite e esse é o meu protfólio digital, desenvolvido como atividade prática para a disciplina de Design Digital do curso de Desenvolvimento de Software Multiplitaforma, na Fatec-SJC.
 
 # 📁 Composição do projeto:
@@ -10,7 +10,7 @@
 ## 🛠️ Abrir e rodar o projeto:
  ### Criar uma pasta vazia
  ### Clonar o repositório com:
-	git clone  .
+	git clone  https://github.com/ThiagoOAL/portfolio.git
  ### Criar um ambiente virtual com:
 	virtualenv venv
 ### Navegar para venv/Scripts/ e executar:
