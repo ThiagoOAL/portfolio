@@ -12,7 +12,7 @@ def sobre():
 
 @app.route('/projetos')
 def projeto():
-    return render_template('index.html')
+    return render_template('projetos.html')
 
 @app.route('/paixao')
 def paixao():
